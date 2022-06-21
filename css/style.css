@@ -1,0 +1,225 @@
+:root {
+  --basic-black: #000000;
+  --basic-red: #fb565a;
+  --basic-red-hover: #e74246;
+  --basic-red-active: #d7373b;
+  --basic-green: #00ca74;
+  --basic-yellow: #efc849;
+  --basic-white: #ffffff;
+  --app-btn: #00ca74;
+  --app-btn-hover: #00bc6c;
+  --app-btn-active: #00aa62;
+  --presentation-btn: #efc849;
+  --presentation-btn-hover: #eab534;
+  --presentation-btn-active: #e5a722;
+}
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--basic-black);
+  background-color: #ffffff;
+}
+
+.main-header {
+  background-color: #eeeeee;
+}
+
+.main-slider {
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.main-navigation a,
+.main-slider a,
+.advantages a {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover {
+  color: var(--basic-red);
+}
+
+.site-navigation a:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.main-navigation a.cart,
+.advantages-list a.advantages-button {
+  color: var(--basic-black);
+  font-weight: 500;
+}
+
+.main-navigation a.cart:hover {
+  color: var(--basic-red);
+}
+
+.main-navigation a.cart:active {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+.slider-item p:nth-child(1) {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.main-slider a {
+  background-color: var(--basic-red);
+  color: var(--basic-white);
+  padding: 17px 54px 15px 54px;
+  border-radius: 3px;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.main-slider a:hover {
+  background-color: var(--basic-red-hover);
+}
+
+.main-slider a:active {
+  background-color: var(--basic-red-active);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.advantages-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantages h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.advantages-list a.advantages-button {
+  padding: 17px 40px 15px 39px;
+  border-radius: 3px;
+  color: var(--basic-white);
+}
+
+.advantages-list a.advantages-button:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.advantages-list a.site-btn {
+  background-color: var(--basic-red);
+}
+
+.advantages-item a.site-btn:hover {
+  background-color: var(--basic-red-hover);
+}
+
+.advantages-item a.site-btn:active {
+  background-color: var(--basic-red-active);
+}
+
+.advantages-item a.app-btn {
+  background-color: var(--app-btn);
+}
+
+.advantages-item a.app-btn:hover {
+  background-color: var(--app-btn-hover);
+}
+
+.advantages-item a.app-btn:active {
+  background-color: var(--app-btn-active);
+}
+
+.advantages-item a.presentation-btn {
+  background-color: var(--presentation-btn);
+}
+
+.advantages-item a.presentation-btn:hover {
+  background-color: var(--presentation-btn-hover);
+}
+
+.advantages-item a.presentation-btn:active {
+  background-color: var(--presentation-btn-active);
+}
+
+.services .slogan {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.services .text-uppercase {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.statistics-content caption {
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.statistics-content th {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.partners-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-tel {
+  color: inherit;
+}
+
+.contacts h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contacts a.contacts-button {
+  padding: 17px 44px 15px 44px;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.contacts a.contacts-button:hover {
+  background-color: var(--basic-red-hover);
+}
+
+.contacts a.contacts-button:active {
+  background-color: var(--basic-red-active);
+  color:rgba(255, 255, 255, 0.3);
+}
+
+.social-list {
+  list-style: none;
+}
+
+.cta-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+}
