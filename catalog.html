@@ -3,6 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="img/favicons/180.png">
@@ -10,115 +14,144 @@
   </head>
   <body>
 
-    <header>
-      <a href="index.html"><img src="img/nerds-logo.svg" width="159" height="65" alt="Логотип Nёrd's"></a>
-      <ul>
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Клиенты</a></li>
-        <li><a href="#">Магазин</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-      <a href="#">Корзина</a>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="index.html" class="main-header-logo"><img src="img/nerds-logo.svg" width="159" height="65" alt="Логотип Nёrd's"></a>
+        <ul class="site-navigation clear-list">
+          <li><a href="blank.html">Студия</a></li>
+          <li><a href="blank.html">Клиенты</a></li>
+          <li><a class="shop" href="catalog.html">Магазин</a></li>
+          <li><a href="blank.html">Контакты</a></li>
+        </ul>
+        <a class="cart" href="blank.html">Корзина</a>
+      </nav>
     </header>
 
-    <main>
-      <section>
+    <main class="page-main">
+      <section class="main-header">
         <h1>Магазин готовых шаблонов</h1>
       </section>
 
-      <form action="https://echo.htmlacademy.ru" method="post">
+      <form class="form-filter" action="https://echo.htmlacademy.ru" method="post">
         <fieldset>
-          <legend>Стоимость:</legend>
+          <legend class="bold">Стоимость:</legend>
           <input type="range" id="priceslider" name="priceslider" min="0" max="15000" step="1">
           <label>От <input type="text" value="0"></label>
           <label>До <input type="text" value="15000"></label>
         </fieldset>
         <fieldset>
-          <legend>Сетка</legend>
+          <legend class="bold">Сетка:</legend>
           <label><input type="radio" name="grid" value="adaptive" checked> Адаптивная</label>
           <label><input type="radio" name="grid" value="fixed"> Фиксированная</label>
           <label><input type="radio" name="grid" value="rubber"> Резиновая</label>
         </fieldset>
         <fieldset>
-          <legend>Особенности:</legend>
+          <legend class="bold">Особенности:</legend>
           <label><input type="checkbox" name="features" value="slider" checked> Слайдер</label>
           <label><input type="checkbox" name="features" value="advantages"> Блок преимуществ</label>
           <label><input type="checkbox" name="features" value="news" checked> Новости</label>
           <label><input type="checkbox" name="features" value="galery"> Галерея</label>
           <label><input type="checkbox" name="features" value="basket"> Корзина</label>
         </fieldset>
-        <button type="submit">Показать</button>
+        <button class="btn-gray" type="submit">Показать</button>
       </form>
 
       <section>
         <h2>Товары</h2>
-        <p>Сортировать:</p>
-        <ul>
+        <p class="bold">Сортировать:</p>
+        <ul class="sort-list clear-list">
           <li><a href="#">По цене</a></li>
           <li><a href="#">По типу</a></li>
           <li><a href="#">По названию</a></li>
           <li><a href="#"></a></li>
           <li><a href="#"></a></li>
         </ul>
-        <ul>
+        <ul class="products-list clear-list">
           <li>
-            <h3><a href="#">Sedona</a></h3>
-            <p>Информационный сайт для туристов</p>
-            <a href="#">9900 р</a>
-            <img src="img/img-sedona.jpg" width="358" height="578" alt="Скриншот сайта для туристов Sedona">
+            <div class="products-description">
+              <h3><a href="#">Sedona</a></h3>
+              <p>Информационный сайт<br>
+                 для туристов</p>
+              <a class="button products-btn" href="#">9900 р</a>
+            </div>
+            <img src="img/img-sedona.jpg" width="358" height="577" alt="Скриншот сайта для туристов Sedona">
           </li>
           <li>
-            <h3><a href="#">Pink App</a></h3>
-            <p>Продуктовый лендинг приложения для iOS и Android</p>
-            <a href="#">9900 р</a>
+            <div class="products-description">
+              <h3><a href="#">Pink App</a></h3>
+              <p>Продуктовый лендинг<br>
+                 приложения для iOS и Android</p>
+              <a class="btn products-btn" href="#">9900 р</a>
+            </div>
             <img src="img/img-pink.jpg" width="358" height="578" alt="Скриншот продуктового лендинга Pink App">
           </li>
           <li>
+            <div class="products-description">
+              <h3><a href="#">barbershop</a></h3>
+              <p>Сайт салона красоты.<br>
+                 Для мужчин, да.</p>
+              <a class="btn products-btn" href="#">9900 р</a>
+            </div>
             <img src="img/img-barbershop.jpg" width="358" height="578" alt="Скриншот сайта барбершопа Borodinski">
           </li>
           <li>
+            <div class="products-description">
+              <h3><a href="#">mishka</a></h3>
+              <p>Интернет-магазин<br>
+                 вязаных игрушек</p>
+              <a class="btn products-btn" href="#">9900 р</a>
+            </div>
             <img src="img/img-mishka.jpg" width="358" height="578" alt="Скриншот сайта вязаных изделий Wiazanki">
           </li>
           <li>
+            <div class="products-description">
+              <h3><a href="#">a plus</a></h3>
+              <p>Лендинг курсов повышения<br>
+                 квалификации</p>
+              <a class="btn products-btn" href="#">9900 р</a>
+            </div>
             <img src="img/img-aplus.jpg" width="358" height="578" alt="Скриншот учебной плотформы Aplus">
           </li>
           <li>
-            <h3><a href="#">Kvast</a></h3>
-            <p>Промо-сайт производителя крафтового кваса</p>
-            <a href="#">9900 р</a>
+            <div class="products-description">
+              <h3><a href="#">Kvast</a></h3>
+              <p>Промо-сайт производителя<br>
+                 крафтового кваса</p>
+              <a class="btn products-btn" href="#">9900 р</a>
+            </div>
             <img src="img/img-kvast.jpg" width="358" height="578" alt="Скриншот сайта производителя живого кваса Kvast">
           </li>
         </ul>
         <div>
-          <ul>
-            <li><a>1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">Следующая</a></li>
+          <ul class="products-page clear-list">
+            <li><a class="page-active page-item">1</a></li>
+            <li><a class="page-item" href="#">2</a></li>
+            <li><a class="page-item" href="#">3</a></li>
+            <li><a class="page-item next-page" href="#">Следующая</a></li>
           </ul>
         </div>
       </section>
 
-      <section>
+      <section class="contacts">
         <h2>nёrd's design studio</h2>
-        <p>наб. Реки Карповки,<br> 
+        <p>наб. Реки Карповки,<br>
           5 лит П, Санкт-Петербург</p>
-        <p><a href="tel:+78005558628">+7 800 555-86-28</a></p>
-        <a href="#">Напишите нам</a>
+        <p><a class="contacts-tel" href="tel:+78005558628">+7 800 555-86-28</a></p>
+        <a class="contacts-button btn" href="#">Напишите нам</a>
       </section>
 
-    </main>  
-    
-    <footer>
-      <section>
-        <ul>
-          <li><a href="#">vk</a></li>
-          <li><a href="#">fb</a></li>
-          <li><a href="#">Insta</a></li>
+    </main>
+
+    <footer class="main-footer">
+      <section class="footer-social">
+        <ul class="social-list clear-list">
+          <li><a class="social-button" href="#">vk</a></li>
+          <li><a class="social-button" href="#">fb</a></li>
+          <li><a class="social-button" href="#">Insta</a></li>
         </ul>
       </section>
-      <section>
-        <p>Давайте дружить, это выгодно!</p>
+      <section class="cta">
+        <p class="cta-text">Давайте дружить, это выгодно!</p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
       </section>
     </footer>
