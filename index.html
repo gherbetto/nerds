@@ -2,11 +2,176 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <title>HTML Academy: Nerds</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+  <header>
+    <nav>
+    <a>
+      <img src="https://via.placeholder.com/160x65" alt="Logo">
+    </a>
+    <ul>
+      <li><a href="blank.html">Studio</a></li>
+      <li><a href="blank.html">Our Clients</a></li>
+      <li><a href="catalog.html">Store</a></li>
+      <li><a href="blank.html">Contacts</a></li>
+    </ul>
+    <ul>
+      <li><a href="blank.html">Cart</a></li>
+    </ul>
+    </nav>
+
+    <h1 class="visually-hidden">Design studio Nerds</h1>
+
+    <section class="slider">
+      <div class="slider-item">
+        <h2 class="visually-hidden">Slow, Expensive and Neat</h2>
+        <p>Mathematically researched design <br> for your website and mobile application</p>
+        <a class="button" href="#">Learn more</a>
+      </div>
+
+      <div class="slider-controls">
+        <button type="button" class="current"></button>
+        <button type="button" class=""></button>
+        <button type="button" class=""></button>
+      </div>
+    </section>
+  </header>
+
+
+  <main>
+    <section>
+      <h2 class="visually-hidden">What we offer</h2>
+      <ul class="services-list">
+        <li class="services-item">
+          <img src="" alt="">
+          <h3>Web-sites</h3>
+          <p>The world will never be the same, after you see your website!</p>
+          <a class="button" href="#">Order</a>
+        </li>
+        <li class="services-item">
+          <img src="" alt="">
+          <h3>Web-sites</h3>
+          <p>The world will never be the same, after you see your website!</p>
+          <a class="button" href="#">Order</a>
+        </li>
+        <li class="services-item">
+          <img src="" alt="">
+          <h3>Web-sites</h3>
+          <p>The world will never be the same, after you see your website!</p>
+          <a class="button" href="#">Order</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="visually-hidden">About us</h2>
+      <div class="col-left">
+        <b>We are small</b>
+        <p>Doing principles of minimalism</p>
+        <p><b>we make orders for</b></p>
+        <ul>
+          <li>Any diff</li>
+          <li>Mobile apps</li>
+          <li>Slideshows</li>
+        </ul>
+      </div>
+      <div class="col-right">
+        <table class="about-us-table">
+          <caption>we love precision since 2004</caption>
+          <thead>
+            <tr>
+              <th>Level</th>
+              <th>Due dates</th>
+              <th>Min payment</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>146<sup>%</sup></td>
+              <td>100<sup>%</sup></td>
+              <td>146<sup>%</sup></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+
+    <section class="partners">
+      <h2 class="visually-hidden">Our partners</h2>
+      <ul class="partners-list">
+        <li class="partners-list-item">
+          <a href="#">
+            <img src="" alt="">
+          </a>
+        </li>
+        <li class="partners-list-item">
+          <a href="#">
+            <img src="" alt="">
+          </a>
+        </li>
+        <li class="partners-list-item">
+          <a href="#">
+            <img src="" alt="">
+          </a>
+        </li>
+        <li class="partners-list-item">
+          <a href="#">
+            <img src="" alt="">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-map">
+      <div id="map"></div>
+      <img src="" alt="">
+      <div class="footer-contacts">
+        <b>Nerds design studio</b>
+        <p>address</p>
+        <p class="">tel. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+        <button class="button">write us</button>
+      </div>
+    </div>
+    <div class="footer-social">
+      <ul class="footer-social-icons">
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+    <div class="footer-social-text">
+      <strong>Let's be friends</strong>
+      <p>10% discount for friends from social media</p>
+    </div>
+  </footer>
+  <section class="modal">
+    <h2 class="visually-hidden">Write us form</h2>
+    <span>Write us</span>
+    <form class="contact-us-form" action="">
+      <p>
+        <label></label>
+        <input type="text">
+      </p>
+      <p>
+        <label></label>
+        <input type="text">
+      </p>
+      <p>
+        <label></label>
+        <input type="text">
+      </p>
+      <button class="button">Send</button>
+    </form>
+    <button class="modal-close">Close</button>
+  </section>
+
+
 
   </body>
 </html>
