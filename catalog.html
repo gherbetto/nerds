@@ -10,6 +10,8 @@
   <link rel="icon" type="image/png" href="favicon-64x64.png" sizes="64x64">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -85,10 +87,78 @@
 
   <section class="catalog">
     <h2 class="visually-hidden">Template catalog</h2>
-
+    <div>
+      <b>Sort:</b>
+      <ul class="sort-by-list">
+        <li><a class="current">By price</a></li>
+        <li><a href="#">By type</a></li>
+        <li><a href="#">By name</a></li>
+      </ul>
+      <ul>
+        <li class="current"><a></a></li>
+        <li><a href="#"></a></li>
+      </ul>
+    </div>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <img src="img/img-sedona.jpg" alt="">
+        <h3>Sedona</h3>
+        <p>Informational website for tourists</p>
+        <a class="button" href="#">9,999 $</a>
+      </li>
+    </ul>
+    <ul class="pagination-list">
+      <li class="pagination-item"><a class="current" href="">1</a></li>
+      <li class="pagination-item"><a href="#">2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a class="next-page" href="#">Next</a></li>
+    </ul>
   </section>
 </main>
 
+<footer>
+  <div class="footer-map">
+    <div id="map"></div>
+    <img src="img/map.jpg" alt="" width="1440" height="416">
+    <div class="footer-contacts">
+      <b>Nerds design studio</b>
+      <p>address</p>
+      <p class="">tel. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
+      <button class="button">write us</button>
+    </div>
+  </div>
+  <div class="footer-social">
+    <ul class="footer-social-icons">
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+    </ul>
+  </div>
+  <div class="footer-social-text">
+    <strong>Let's be friends</strong>
+    <p>10% discount for friends from social media</p>
+  </div>
+</footer>
+<section class="modal">
+  <h2 class="visually-hidden">Write us form</h2>
+  <span>Write us</span>
+  <form class="contact-us-form" action="">
+    <p>
+      <label></label>
+      <input type="text">
+    </p>
+    <p>
+      <label></label>
+      <input type="text">
+    </p>
+    <p>
+      <label></label>
+      <input type="text">
+    </p>
+    <button class="button">Send</button>
+  </form>
+  <button class="modal-close">Close</button>
+</section>
 
 
 </body>
