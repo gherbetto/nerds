@@ -17,8 +17,8 @@
 
 
   <!-- header -->
-  <header class="page-header">
-    <nav class="main-navigartion">
+  <header class="main-header">
+    <nav class="main-navigation">
     <a class="main-header-logo">
       <img src="img/nerds-logo.svg" alt="Logo of Nerds design studio" width="160" height="65">
     </a>
@@ -28,7 +28,10 @@
       <li><a href="catalog.html">Store</a></li>
       <li><a href="#">Contacts</a></li>
     </ul>
-      <a class="cart-link" href="#">Cart</a>
+      <div class="user-navigation">
+        <a class="cart-link" href="#">Cart</a>
+      </div>
+
     </nav>
 
     <section class="slider">
@@ -78,13 +81,13 @@
     <section class="about">
       <h2 class="visually-hidden">About us</h2>
       <div class="col-left">
-        <b>We are small</b>
+        <h3 class="about-header">We are small</h3>
         <p>Doing principles of minimalism</p>
-        <p><b>we make orders for</b></p>
-        <ul>
-          <li>Any diff</li>
-          <li>Mobile apps</li>
-          <li>Slideshows</li>
+        <p class="we-offer-heading">we make orders for:</p>
+        <ul class="offer-list">
+          <li class="offer-item">Any diff</li>
+          <li class="offer-item">Mobile apps</li>
+          <li class="offer-item">Slideshows</li>
         </ul>
       </div>
       <div class="col-right">
@@ -137,7 +140,7 @@
     </section>
   </main>
 
-  <footer class="page-footer">
+  <footer class="main-footer">
     <div class="footer-map">
       <div id="map"></div>
       <img src="img/map.jpg" alt="" width="1440" height="416">
@@ -162,8 +165,8 @@
       </ul>
     </div>
     <div class="footer-social-text">
-      <strong>Let's be friends</strong>
-      <p>10% discount for friends from social media</p>
+      <p class="social-text-header">Let's be friends!</p>
+      <p class="social-text">10% discount for friends from social media</p>
     </div>
   </footer>
   <section class="modal">
