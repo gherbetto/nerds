@@ -43,15 +43,15 @@
         <legend class="grid-filter">Grid type:</legend>
         <ul class="grid-list">
           <li>
-            <input  id="adaptive" type="radio" name="grid" value="adaptive" checked>
+            <input class="filter-input filter-input-radio visually-hidden" id="adaptive" type="radio" name="grid" value="adaptive" checked>
             <label for="adaptive">Adaptive</label>
           </li>
           <li>
-            <input  id="fixed" type="radio" name="grid" value="fixed">
+            <input class="filter-input filter-input-radio visually-hidden" id="fixed" type="radio" name="grid" value="fixed">
             <label for="fixed">Fixed</label>
           </li>
           <li>
-            <input  id="Rubber" type="radio" name="grid" value="rubber">
+            <input class="filter-input filter-input-radio visually-hidden" id="Rubber" type="radio" name="grid" value="rubber">
             <label for="rubber">Rubber</label>
           </li>
         </ul>
@@ -60,23 +60,23 @@
         <legend>Features:</legend>
         <ul class="features-list">
           <li>
-            <input class="" id="slider" type="checkbox" name="slider" checked>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="slider" type="checkbox" name="slider" checked>
             <label for="slider">Slider</label>
           </li>
           <li>
-            <input class="" id="advantages-block" type="checkbox" name="advantages-block">
+            <input class="filter-input filter-input-checkbox visually-hidden" id="advantages-block" type="checkbox" name="advantages-block">
             <label for="advantages-block">Advantages Section</label>
           </li>
           <li>
-            <input class="" id="news" type="checkbox" name="news" checked>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="news" type="checkbox" name="news" checked>
             <label for="news">News</label>
           </li>
           <li>
-            <input class="" id="gallery" type="checkbox" name="gallery">
+            <input class="filter-input filter-input-checkbox visually-hidden" id="gallery" type="checkbox" name="gallery">
             <label for="gallery">Gallery</label>
           </li>
           <li>
-            <input class="" id="cart" type="checkbox" name="cart">
+            <input class="filter-input filter-input-checkbox visually-hidden" id="cart" type="checkbox" name="cart">
             <label for="cart">Cart</label>
           </li>
         </ul>
@@ -87,16 +87,16 @@
 
   <section class="catalog">
     <h2 class="visually-hidden">Template catalog</h2>
-    <div>
+    <div class="sorting-menu">
       <b>Sort:</b>
       <ul class="sort-by-list">
         <li><a class="current">By price</a></li>
         <li><a href="#">By type</a></li>
         <li><a href="#">By name</a></li>
       </ul>
-      <ul>
-        <li class="current"><a></a></li>
-        <li><a href="#"></a></li>
+      <ul class="arrow-list">
+        <li class="current"><a>down</a></li>
+        <li><a href="#"></a>up</li>
       </ul>
     </div>
     <ul class="catalog-list">

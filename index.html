@@ -79,6 +79,7 @@
     </section>
 
     <section class="about">
+      <div class="about-grid">
       <h2 class="visually-hidden">About us</h2>
       <div class="col-left">
         <h3 class="about-header">We are small</h3>
@@ -110,6 +111,7 @@
           </tbody>
         </table>
       </div>
+      </div>
     </section>
 
 
@@ -140,36 +142,39 @@
     </section>
   </main>
 
-  <footer class="main-footer">
-    <div class="footer-map">
-      <div id="map"></div>
-      <img src="img/map.jpg" alt="" width="1440" height="416">
-      <div class="footer-contacts">
-        <b>Nerds design studio</b>
-        <p>address</p>
-        <p class="">tel. <a class="contacts-phone" href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-        <button class="button">write us</button>
+  <footer>
+    <section class="contacts">
+      <h2 class="visually-hidden">Contact information</h2>
+      <div class="contacts-columns container">
+        <div class="contacts-list">
+          <h3>nёrd's design studio</h3>
+          <div class="contacts-address">
+            <p>наб. Реки Карповки,<br>
+              5 лит П, Санкт-Петербург</p>
+            <p><a class="contacts-tel" href="tel:+78005558628">+7 800 555-86-28</a></p>
+          </div>
+          <a class="button" href="#">Write us</a>
+        </div>
+      </div>
+      <div class="contacts-map"><img src="img/map.jpg" alt="Карта"></div>
+    </section>
+    <section>
+    <div class="container footer-social">
+      <ul class="footer-social-icons">
+        <li><a href="http://vk.com" target="_blank" aria-label="Vkontakte"></a></li>
+        <li><a href="http://facebook.com" target="_blank" aria-label="Facebook"></a></li>
+        <li><a href="http://instagram.com" target="_blank" aria-label="Instagram"></a></li>
+      </ul>
+      <div class="footer-social-text">
+        <strong>Let's be friends, it's worth it!</strong>
+        <p>10% discount for social media referrals</p>
       </div>
     </div>
-    <div class="footer-social">
-      <ul class="footer-social-icons">
-        <li>
-          <a class="social-button" href="#">123</a>
-        </li>
-        <li>
-          <a class="social-button" href="#">123</a>
-        </li>
-        <li>
-          <a class="social-button" href="#">123</a>
-        </li>
-      </ul>
-    </div>
-    <div class="footer-social-text">
-      <p class="social-text-header">Let's be friends!</p>
-      <p class="social-text">10% discount for friends from social media</p>
-    </div>
+    </section>
   </footer>
-  <section class="modal">
+
+
+  <section class="visually-hidden modal">
     <h2 class="visually-hidden">Write us form</h2>
     <span class="modal-heading">Write us</span>
     <form class="contact-us-form" action="https://echo.htmlacademy.ru" method="post">
