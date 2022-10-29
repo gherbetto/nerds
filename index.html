@@ -19,94 +19,97 @@
   <!-- header -->
   <header class="main-header">
     <nav class="main-navigation">
-    <a class="main-header-logo">
-      <img src="img/nerds-logo.svg" alt="Logo of Nerds design studio" width="160" height="65">
-    </a>
-    <ul class="site-navigation">
-      <li><a href="#">Studio</a></li>
-      <li><a href="#">Our Clients</a></li>
-      <li><a href="catalog.html">Store</a></li>
-      <li><a href="#">Contacts</a></li>
-    </ul>
-      <div class="user-navigation">
-        <a class="cart-link" href="#">Cart</a>
+      <div class="container">
+        <div class="main-navigation-bar">
+        <a class="main-header-logo">
+          <img src="img/nerds-logo.svg" alt="Logo of Nerds design studio" width="160" height="65">
+        </a>
+        <ul class="site-navigation">
+          <li><a class="current" href="">Studio</a></li>
+          <li><a href="#">Our Clients</a></li>
+          <li><a href="catalog.html">Store</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="user-navigation">
+          <a class="cart-link" href="#">Cart</a>
+        </div>
+        </div>
       </div>
-
     </nav>
+  </header>
 
-    <section class="slider">
-      <div class="slider-item">
-        <h2 class="visually-hidden">Slow, Expensive and Neat</h2>
+
+  <main>
+    <h1 class="visually-hidden">Design studio Nerds</h1>
+  <div class="background-container-slider">
+    <section class="main-slider container">
+      <h2 class="visually-hidden">Slider Element</h2>
+      <div class="slider-item slide-1">
+        <p class="slider-header">Slow, Expensive and Neat</p>
         <p class="slider-description">Mathematically researched design <br> for your website and mobile application</p>
         <a class="button" href="#">Learn more</a>
       </div>
 
       <div class="slider-controls">
-        <button type="button" class="current slider-button"></button>
-        <button type="button" class="slider-button"></button>
-        <button type="button" class="slider-button"></button>
+        <button type="button" class="current slider-button slider-button-1"></button>
+        <button type="button" class="slider-button slider-button-2"></button>
+        <button type="button" class="slider-button slider-button-3"></button>
       </div>
     </section>
-  </header>
-
-
-  <main class="container">
-
-    <h1 class="visually-hidden">Design studio Nerds</h1>
-
-    <section class="services">
+    </div>
+    <section class="services container">
       <h2 class="visually-hidden">What we offer</h2>
       <ul class="services-list">
         <li class="services-item">
-          <img src="img/illustration-1.jpg" alt="Developing the webpages" width="300" height="146">
+          <img src="img/laptop.png" alt="Developing the webpages" width="300" height="146">
           <h3>Web-sites</h3>
           <p>The world will never be the same, after you see your website!</p>
           <a class="button" href="#">Order</a>
         </li>
         <li class="services-item">
-          <img src="img/illustration-2.jpg" alt="Разрабатываем приложения" width="300" height="146">
-          <h3>Web-sites</h3>
-          <p>The world will never be the same, after you see your website!</p>
-          <a class="button" href="#">Order</a>
+          <img src="img/phone.png" alt="Разрабатываем приложения" width="300" height="146">
+          <h3>Applications</h3>
+          <p>Beat the app charts on AppStore Google Play</p>
+          <a class="button button-style-2" href="#">Order</a>
         </li>
         <li class="services-item">
-          <img src="img/illustration-3.jpg" alt="Создаем презентации" width="300" height="146">
-          <h3>Web-sites</h3>
-          <p>The world will never be the same, after you see your website!</p>
-          <a class="button" href="#">Order</a>
+          <img src="img/presentation.png" alt="Создаем презентации" width="300" height="146">
+          <h3>Presentations</h3>
+          <p>You don't even know, how awesome you are!</p>
+          <a class="button button-style-3" href="#">Order</a>
         </li>
       </ul>
     </section>
 
-    <section class="about">
+    <section class="about container">
       <div class="about-grid">
       <h2 class="visually-hidden">About us</h2>
       <div class="col-left">
-        <h3 class="about-header">We are small</h3>
-        <p>Doing principles of minimalism</p>
-        <p class="we-offer-heading">we make orders for:</p>
+        <h3 class="about-header">We are a small, but proud design-studio from Krasnodar</h3>
+        <p class="about-description">Following principles of minimalism and tidiness. Science above creativity. <br> Working non-stop just like robots.</pclass>
+        <p class="we-offer-heading">we complete orders for:</p>
         <ul class="offer-list">
-          <li class="offer-item">Any diff</li>
-          <li class="offer-item">Mobile apps</li>
-          <li class="offer-item">Slideshows</li>
+          <li class="offer-item">Web-sites of any difficulty</li>
+          <li class="offer-item">Mobile applications for iOS and Android </li>
+          <li class="offer-item">Slideshows and videos for corporate presentations</li>
         </ul>
       </div>
       <div class="col-right">
-        <img src="img/nerds-illustration.jpg" alt="second logo of the design studio nerds" width="360" height="208">
+        <img src="img/nerds-illustration.png" alt="second logo of the design studio nerds" width="360" height="208">
         <table class="about-us-table">
           <caption>we love precision since 2004</caption>
           <thead>
             <tr>
-              <th>Level</th>
-              <th>Due dates</th>
-              <th>Min payment</th>
+              <th>Return rate</th>
+              <th>Following due dates</th>
+              <th>Minimum payment</th>
             </tr>
           </thead>
           <tbody>
             <tr>
               <td>146<sup>%</sup></td>
               <td>100<sup>%</sup></td>
-              <td>146<sup>%</sup></td>
+              <td>50<sup>%</sup></td>
             </tr>
           </tbody>
         </table>
@@ -115,7 +118,7 @@
     </section>
 
 
-    <section class="partners">
+    <section class="partners container">
       <h2 class="visually-hidden">Our partners</h2>
       <ul class="partners-list">
         <li class="partners-list-item">
@@ -149,21 +152,21 @@
         <div class="contacts-list">
           <h3>nёrd's design studio</h3>
           <div class="contacts-address">
-            <p>наб. Реки Карповки,<br>
-              5 лит П, Санкт-Петербург</p>
+            <p>Naberezhnaya Reki Karpovki,<br>
+              Suite 5, St Petersburg, 197022</p>
             <p><a class="contacts-tel" href="tel:+78005558628">+7 800 555-86-28</a></p>
           </div>
           <a class="button" href="#">Write us</a>
         </div>
       </div>
-      <div class="contacts-map"><img src="img/map.jpg" alt="Карта"></div>
+      <div class="contacts-map"><img src="img/map.png" alt="Карта"></div>
     </section>
     <section>
     <div class="container footer-social">
       <ul class="footer-social-icons">
-        <li><a href="http://vk.com" target="_blank" aria-label="Vkontakte"></a></li>
-        <li><a href="http://facebook.com" target="_blank" aria-label="Facebook"></a></li>
-        <li><a href="http://instagram.com" target="_blank" aria-label="Instagram"></a></li>
+        <li><img src="img/vk-icon.svg" alt=""><a href="http://vk.com" target="_blank" aria-label="Vkontakte"></a></li>
+        <li><img src="img/fb-icon.svg" alt=""><a href="http://facebook.com" target="_blank" aria-label="Facebook"></a></li>
+        <li><img src="img/insta-icon.svg" alt=""><a href="http://instagram.com" target="_blank" aria-label="Instagram"></a></li>
       </ul>
       <div class="footer-social-text">
         <strong>Let's be friends, it's worth it!</strong>
