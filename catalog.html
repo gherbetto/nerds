@@ -17,23 +17,29 @@
 
 <header class="main-header">
   <nav class="main-navigation">
-    <a class="main-header-logo">
-      <img src="img/nerds-logo.svg" alt="Logo of Nerds design studio" width="160" height="65">
-    </a>
-    <ul class="site-navigation">
-      <li><a href="#">Studio</a></li>
-      <li><a href="#">Our Clients</a></li>
-      <li><a href="catalog.html">Store</a></li>
-      <li><a href="#">Contacts</a></li>
-    </ul>
-    <a class="cart-link" href="#">Cart</a>
+    <div class="container">
+      <div class="main-navigation-bar">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/nerds-logo.svg" alt="Logo of Nerds design studio" width="160" height="65">
+        </a>
+        <ul class="site-navigation">
+          <li><a class="" href="index.html">Studio</a></li>
+          <li><a href="#">Our Clients</a></li>
+          <li><a class="current" href="">Store</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <div class="user-navigation">
+          <a class="cart-link" href="#">Cart</a>
+        </div>
+      </div>
+    </div>
   </nav>
-  <div class="page-title">
-    <h1>Templates for sale</h1>
-  </div>
+  <div class="container main-heading">
+      <h1>Template store</h1>
+  </div>>
 </header>
 
-<main class="inner-page container">
+<main class="page-catalog container">
   <aside class="filter">
     <form class="filter-form">
       <fieldset class="price-filter">
@@ -106,6 +112,18 @@
         <p>Informational website for tourists</p>
         <a class="button" href="#">9,999 $</a>
       </li>
+      <li class="catalog-item">
+        <img src="img/img-sedona.jpg" alt="">
+        <h3>Sedona</h3>
+        <p>Informational website for tourists</p>
+        <a class="button" href="#">9,999 $</a>
+      </li>
+      <li class="catalog-item">
+        <img src="img/img-sedona.jpg" alt="">
+        <h3>Sedona</h3>
+        <p>Informational website for tourists</p>
+        <a class="button" href="#">9,999 $</a>
+      </li>
     </ul>
     <ul class="pagination-list">
       <li class="pagination-item"><a class="current" href="">1</a></li>
@@ -117,28 +135,36 @@
 </main>
 
 <footer>
-  <div class="footer-map">
-    <div id="map"></div>
-    <img src="img/map.jpg" alt="" width="1440" height="416">
-    <div class="footer-contacts">
-      <b>Nerds design studio</b>
-      <p>address</p>
-      <p class="">tel. <a href="tel:+78122757575">+7 (812) 275-75-75</a></p>
-      <button class="button">write us</button>
+  <section class="contacts">
+    <h2 class="visually-hidden">Contact information</h2>
+    <div class="contacts-columns container">
+      <div class="contacts-list">
+        <h3>nёrd's design studio</h3>
+        <div class="contacts-address">
+          <p>Naberezhnaya Reki Karpovki,<br>
+            Suite 5, St Petersburg, 197022</p>
+          <p><a class="contacts-tel" href="tel:+78005558628">+7 800 555-86-28</a></p>
+        </div>
+        <a class="button" href="#">Write us</a>
+      </div>
     </div>
-  </div>
-  <div class="footer-social">
-    <ul class="footer-social-icons">
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-    </ul>
-  </div>
-  <div class="footer-social-text">
-    <strong>Let's be friends</strong>
-    <p>10% discount for friends from social media</p>
-  </div>
+    <div class="contacts-map"><img src="img/map.png" alt="Карта"></div>
+  </section>
+  <section>
+    <div class="container footer-social">
+      <ul class="footer-social-icons">
+        <li><img src="img/vk-icon.svg" alt=""><a href="http://vk.com" target="_blank" aria-label="Vkontakte"></a></li>
+        <li><img src="img/fb-icon.svg" alt=""><a href="http://facebook.com" target="_blank" aria-label="Facebook"></a></li>
+        <li><img src="img/insta-icon.svg" alt=""><a href="http://instagram.com" target="_blank" aria-label="Instagram"></a></li>
+      </ul>
+      <div class="footer-social-text">
+        <strong>Let's be friends, it's worth it!</strong>
+        <p>10% discount for social media referrals</p>
+      </div>
+    </div>
+  </section>
 </footer>
+
 <section class="modal">
   <h2 class="visually-hidden">Write us form</h2>
   <span>Write us</span>
