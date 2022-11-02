@@ -13,12 +13,12 @@
     overflow: hidden;
 }
 
-body {
+.page-body {
     min-width: 1440px;
     padding: 0;
     margin: 0;
-    font-weight: normal;
     font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #283136;
@@ -33,10 +33,6 @@ a {
     text-decoration: none;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
 
 /*grid*/
 
@@ -381,6 +377,7 @@ img {
 
 .services-item .button {
     padding: 16px 40px;
+    min-width: 160px;
 }
 
 .button-style-2 {
@@ -547,6 +544,21 @@ img {
 
 /*modal*/
 
+.modal {
+    position: fixed;
+    top: 80px;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 960px;
+    padding-top: 63px;
+    padding-bottom: 84px;
+    background: white;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    display: none;
+}
+
 .contact-form-item input {
     border: 2px solid #D7DCDE;
     border-radius: 3px;
@@ -645,8 +657,14 @@ img {
 
 /*social section*/
 
-.footer-social {
+.footer-columns {
     display: flex;
+
+}
+
+.footer-social {
+    margin-right: 139px;
+    margin-top: -10px;
     align-items: center;
 }
 
@@ -654,28 +672,23 @@ footer {
     margin-bottom: 68px;
 }
 
-.footer-social-icons {
-    margin: 0;
-    padding: 0;
+.footer-social-list {
     width: 260px;
     display: flex;
-    margin-right: 139px;
 }
 
-.footer-social-icons img {
-    scale: 25% ;
-}
-
-.footer-social-icons li {
+.social-button {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 81px;
     height: 81px;
     background-color: #E1E1E1;
+    color: inherit;
     border-radius: 50%;
 }
 
-.footer-social-icons li:not(:last-child) {
+.footer-social-list li:not(:last-child) {
     margin-right: 9px;
 }
 
@@ -683,26 +696,17 @@ footer {
     background-color: #E74246;
 }
 
-.footer-social-icons li:active {
+.social-button:active {
     background-color: #D7373B;
     box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
 .footer-social-icons img:active {
-    opacity: 0.3;
 }
 
 
 
-.social .social-list {
-    display: flex;
-    flex-wrap: wrap;
-    width: 380px;
-    margin: 0;
-    padding: 0;
 
-    list-style: none;
-}
 
 .social-list li {
     margin-right: 9px;
