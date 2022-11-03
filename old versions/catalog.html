@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Design Studio Nerds | Catalog</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon-196x196.png" sizes="196x196">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon-128x128.png" sizes="128x128">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon-64x64.png" sizes="64x64">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="../img/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="main-header">
+  <nav class="main-navigation">
+    <div class="container">
+      <div class="main-navigation-bar">
+        <a class="main-header-logo" href="index.html">
+          <img src="../img/nerds-logo.svg" alt="Logo of Nerds design studio" width="160" height="65">
+        </a>
+        <ul class="site-navigation">
+          <li><a class="" href="index.html">Studio</a></li>
+          <li><a href="index.html#partners">Our Clients</a></li>
+          <li><a class="current" href="">Store</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <div class="user-navigation">
+          <a class="cart-link" href="#">Cart</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container main-heading">
+      <h1>Template store</h1>
+  </div>>
+</header>
+
+<main class="page-catalog container">
+  <aside class="filter">
+    <form class="filter-form">
+      <fieldset class="price-filter">
+        <legend>Price:</legend>
+      </fieldset>
+      <fieldset>
+        <legend class="grid-filter">Grid type:</legend>
+        <ul class="grid-list">
+          <li>
+            <input class="filter-input filter-input-radio visually-hidden" id="adaptive" type="radio" name="grid" value="adaptive" checked>
+            <label for="adaptive">Adaptive</label>
+          </li>
+          <li>
+            <input class="filter-input filter-input-radio visually-hidden" id="fixed" type="radio" name="grid" value="fixed">
+            <label for="fixed">Fixed</label>
+          </li>
+          <li>
+            <input class="filter-input filter-input-radio visually-hidden" id="Rubber" type="radio" name="grid" value="rubber">
+            <label for="rubber">Rubber</label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Features:</legend>
+        <ul class="features-list">
+          <li>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="slider" type="checkbox" name="slider" checked>
+            <label for="slider">Slider</label>
+          </li>
+          <li>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="advantages-block" type="checkbox" name="advantages-block">
+            <label for="advantages-block">Advantages Section</label>
+          </li>
+          <li>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="news" type="checkbox" name="news" checked>
+            <label for="news">News</label>
+          </li>
+          <li>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="gallery" type="checkbox" name="gallery">
+            <label for="gallery">Gallery</label>
+          </li>
+          <li>
+            <input class="filter-input filter-input-checkbox visually-hidden" id="cart" type="checkbox" name="cart">
+            <label for="cart">Cart</label>
+          </li>
+        </ul>
+      </fieldset>
+      <button class="button">Sort</button>
+    </form>
+  </aside>
+
+  <section class="catalog">
+    <h2 class="visually-hidden">Template catalog</h2>
+    <div class="sorting-menu">
+      <b>Sort:</b>
+      <ul class="sort-by-list">
+        <li><a class="current">By price</a></li>
+        <li><a href="#">By type</a></li>
+        <li><a href="#">By name</a></li>
+      </ul>
+      <ul class="arrow-list">
+        <li class="current"><a>down</a></li>
+        <li><a href="#"></a>up</li>
+      </ul>
+    </div>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <img src="../img/img-sedona.jpg" alt="">
+        <h3>Sedona</h3>
+        <p>Informational website for tourists</p>
+        <a class="button" href="#">9,999 $</a>
+      </li>
+      <li class="catalog-item">
+        <img src="../img/img-sedona.jpg" alt="">
+        <h3>Sedona</h3>
+        <p>Informational website for tourists</p>
+        <a class="button" href="#">9,999 $</a>
+      </li>
+      <li class="catalog-item">
+        <img src="../img/img-sedona.jpg" alt="">
+        <h3>Sedona</h3>
+        <p>Informational website for tourists</p>
+        <a class="button" href="#">9,999 $</a>
+      </li>
+    </ul>
+    <ul class="pagination-list">
+      <li class="pagination-item"><a class="current" href="">1</a></li>
+      <li class="pagination-item"><a href="#">2</a></li>
+      <li class="pagination-item"><a href="#">3</a></li>
+      <li class="pagination-item"><a class="next-page" href="#">Next</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <section id="contacts" class="contacts">
+    <h2 class="visually-hidden">Contact information</h2>
+    <div class="contacts-columns container">
+      <div class="contacts-list">
+        <h3>nёrd's design studio</h3>
+        <div class="contacts-address">
+          <p>Naberezhnaya Reki Karpovki,<br>
+            Suite 5, St Petersburg, 197022</p>
+          <p><a class="contacts-tel" href="tel:+78005558628">+7 800 555-86-28</a></p>
+        </div>
+        <a class="button" href="#">Write us</a>
+      </div>
+    </div>
+    <div class="contacts-map"><img src="../img/map.png" alt="Карта"></div>
+  </section>
+  <section>
+    <div class="container footer-social">
+      <ul class="footer-social-icons">
+        <li><img src="../img/vk-icon.svg" alt=""><a href="http://vk.com" target="_blank" aria-label="Vkontakte"></a></li>
+        <li><img src="../img/fb-icon.svg" alt=""><a href="http://facebook.com" target="_blank" aria-label="Facebook"></a></li>
+        <li><img src="../img/insta-icon.svg" alt=""><a href="http://instagram.com" target="_blank" aria-label="Instagram"></a></li>
+      </ul>
+      <div class="footer-social-text">
+        <strong>Let's be friends, it's worth it!</strong>
+        <p>10% discount for social media referrals</p>
+      </div>
+    </div>
+  </section>
+</footer>
+
+<section class="modal">
+  <h2 class="visually-hidden">Write us form</h2>
+  <span>Write us</span>
+  <form class="contact-us-form" action="">
+    <p>
+      <label></label>
+      <input type="text">
+    </p>
+    <p>
+      <label></label>
+      <input type="text">
+    </p>
+    <p>
+      <label></label>
+      <input type="text">
+    </p>
+    <button class="button">Send</button>
+  </form>
+  <button class="modal-close">Close</button>
+</section>
+
+
+</body>
+</html>

@@ -309,6 +309,8 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     border-top: 2px solid #EEEEEE;
+    padding-bottom: 70px;
+    border-bottom: 2px solid #eee;
 }
 
 .offer-list li:not(:last-child) {
@@ -354,4 +356,46 @@ a {
     font-weight: 700;
     line-height: 24px;
     text-transform: uppercase;
+}
+
+/*partners*/
+
+.partners-list {
+    display: grid;
+    grid-template-columns: repeat(4,260px);
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    row-gap: 30px;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    padding-top: 50px;
+    padding-bottom: 44px;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+.partners {
+    margin-bottom: 80px;
+}
+
+.partners-item {
+    position: relative;
+}
+
+.partners-list a {
+    display: flex;
+    justify-content: center;
+    opacity: .2;
+}
+
+.partners-item:not(:nth-child(4n+4)):after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 52px;
+    right: -20px;
+    bottom: 50%;
+    transform: translateY(50%);
+    background-color: #eee;
 }
