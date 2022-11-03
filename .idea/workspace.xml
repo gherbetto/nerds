@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5ca2fba-dc0a-47b8-9be5-29267606708f" name="Changes" comment="added my divs and class names on the main page, added missing graphics, re-did a few sections for better organization of the objects on the page" />
+    <list default="true" id="c5ca2fba-dc0a-47b8-9be5-29267606708f" name="Changes" comment="added IntelliJ's project specific settings file">
+      <change afterPath="$PROJECT_DIR$/css/style-v2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mishka-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/monitor-slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pink-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/smartphones-slide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tablet-slide.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-128x128.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon-128x128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-196x196.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon-196x196.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-64x64.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon-64x64.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon-96x96.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/favicons/favicon-96x96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/browser-hover.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/browser.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cart-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/cart-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/checkbox-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/checkbox-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/checkbox-on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/checkbox-on.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/close-cross.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fb-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fb-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustration-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustration-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/illustration-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-aplus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-aplus.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-barbershop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-barbershop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-kvast.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-kvast.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-mishka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-mishka.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-pink.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-pink.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img-sedona.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/img-sedona.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/insta-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/insta-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-borodinski.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/borodinski-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-htmlacademy.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/htmlacademy-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo-pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/map-marker.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/map-marker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nerds-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/nerds-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/radio-off.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/radio-on.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slide1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slide2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slide3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vk-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/vk-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,28 +76,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dima/WebstormProjects/nerds/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/dima/WebstormProjects/nerds/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/img/partners" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="C:\Users\dgher\WebstormProjects\nerds" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/favicons" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -71,7 +123,7 @@
       <workItem from="1667118366715" duration="6184000" />
       <workItem from="1667300734223" duration="987000" />
       <workItem from="1667331200946" duration="3194000" />
-      <workItem from="1667395863908" duration="6542000" />
+      <workItem from="1667395863908" duration="25974000" />
     </task>
     <task id="LOCAL-00001" summary="basic html outline page and class names">
       <created>1666785959847</created>
@@ -136,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667401919525</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added IntelliJ's project specific settings file">
+      <created>1667408962503</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667408962503</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +222,7 @@
     <MESSAGE value="exported more optimized images, polished the class names.&#10;completed slide 1 outline&#10;more padding and margin editing&#10;container adjustment&#10;social buttons completed" />
     <MESSAGE value="added edited header and footer &#10;added a heading for catalog page" />
     <MESSAGE value="added my divs and class names on the main page, added missing graphics, re-did a few sections for better organization of the objects on the page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added my divs and class names on the main page, added missing graphics, re-did a few sections for better organization of the objects on the page" />
+    <MESSAGE value="added IntelliJ's project specific settings file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added IntelliJ's project specific settings file" />
   </component>
 </project>

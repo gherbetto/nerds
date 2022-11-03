@@ -13,21 +13,7 @@
     overflow: hidden;
 }
 
-.page-body {
-    min-width: 1440px;
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #283136;
-    background-color: #ffffff;
 
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: min-content 1fr min-content;
-}
 
 a {
     text-decoration: none;
