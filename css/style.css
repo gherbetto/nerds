@@ -333,3 +333,171 @@ ul.user-navigation {
   background-color: #e5a722;
 }
 
+/* about us */
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 39px;
+  padding-bottom: 49px;
+
+  border-bottom: 2px solid #eeeeee;
+}
+
+.about-us .col-left {
+  width: 660px;
+  padding-top: 33px;
+}
+
+.about-us .col-right {
+  width: 360px;
+}
+
+.about-us-text .title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+  text-transform: none;
+}
+
+.about-us-text p:first-of-type {
+  margin-top: 32px;
+}
+
+.about-us-text p:last-of-type {
+  margin-top: 40px;
+  margin-bottom: 24px;
+}
+
+.about-us-text b {
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about-us-text .about-us-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.about-us-list li {
+  position: relative;
+
+  margin-bottom: 24px;
+  padding-left: 36px;
+}
+
+.about-us-list li::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 0;
+
+  width: 25px;
+  height: 2px;
+
+  background-color: #fb565a;
+}
+
+/* second-col */
+
+.about-us-info img {
+  display: block;
+  width: 360px;
+  height: 208px;
+}
+
+.about-us-table {
+  margin-top: 36px;
+}
+
+.about-us-table caption {
+  margin-bottom: 37px;
+
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.about-us-table thead {
+  display: table-footer-group;
+
+  text-align: left;
+}
+
+.about-us-table th {
+  font-weight: normal;
+  line-height: 18px;
+  padding-top: 18px;
+}
+
+.about-us-table tbody {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.about-us-table sup {
+  font-size: 28px;
+}
+
+/* partners */
+
+.partners {
+  padding-bottom: 81px;
+}
+
+.partners .partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 48px;
+  padding-bottom: 44px;
+
+  list-style: none;
+
+  border-bottom: 2px solid #eeeeee;
+}
+
+.partners-list .partners-list-item {
+  width: 260px;
+  position: relative;
+}
+
+.partners-list-item:not(:nth-child(4n + 4))::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 52px;
+  right: -20px;
+  bottom: 50%;
+  transform: translateY(50%);
+  background-color: #EEEEEE;
+}
+
+.partners-list-item a {
+  display: flex;
+  justify-content: center;
+
+  opacity: 0.2;
+}
+
+.partners-list-item a:hover,
+.partners-list-item a:focus {
+  opacity: 1;
+}
+
+.partners-list-item a:active {
+  opacity: 0.1;
+}
+
+.partners-list-item img {
+  width: auto;
+}
