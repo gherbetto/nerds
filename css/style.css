@@ -189,7 +189,6 @@ ul.user-navigation {
   position: absolute;
 
   width: 100%;
-  padding-bottom: 100px;
 
   background-repeat: no-repeat;
   background-position: 93%;
@@ -200,12 +199,14 @@ ul.user-navigation {
 }
 
 .slider .slider-item:nth-child(2) {
-  padding-bottom: 82px;
+  padding-bottom: 45px;
 
   background-image: url("../img/slide-2.png");
 }
 
 .slider .slider-item:nth-child(3) {
+  padding-bottom: 81px;
+
   background-image: url("../img/slide-3.png");
 }
 
@@ -547,16 +548,15 @@ ul.user-navigation {
   background-color: #ffffff;
 } 
 
-.map-marker {
+.map-marker img {
   content: "";
   position: absolute;
-  left: 1090px;
   top: 68px;
-  z-index: 2;
+  left: 1090px;
+  z-index: 1;
 
   width: 231px;
   height: 190px;
-  background-image: url("../img/map-marker.png");
 }
 
 .contacts-info b {
