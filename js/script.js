@@ -1,59 +1,36 @@
-// const slides = document.querySelectorAll('.slider-item'),
-//       dots = document.querySelectorAll('.slider-controls');
+// slider
+const slides = document.querySelectorAll('.slider-item'),
+      dots = document.querySelectorAll('.dot');
 
-// let index = 0;
+let index = 0;
 
-// const activeSlide = n => {
-//   for(slide of slides) {
-//     slide.classList.remove('visually-hidden');
-//   }
-//   slides[n].classList.add('visually-hidden');
-// }
+const activeSlide = n => {
+  for(slide of slides) {
+    slide.classList.add('visually-hidden');
+  }
+  slides[n].classList.remove('visually-hidden');
+}
 
-// const activeDot = n => {
-//   for(dot of dots) {
-//     dot.classList.remove('current');
-//   }
-//   dots[n].classList.add('current');
-// }
+const activeDot = n => {
+  for(dot of dots) {
+    dot.classList.remove('current');
+  }
+  dots[n].classList.add('current');
+}
+console.log(dots);
 
-// const prepCurrentSlide = ind => {
-//     activeSlide(index);
-//     activeDot(index);
-// }
+const prepareCurrentSlide = ind => {
+  activeSlide(index);
+  activeDot(index);
+}
 
-// const nextSlide = () => {
-//   if(index == slides.length - 1) {
-//     index = 0;
-//     prepCurrentSlide(index);
-//   } else {
-//   index++;
-//     prepCurrentSlide(index);
-//   }
-// }
+dots.forEach((item, indexDot) =>{
+  item.addEventListener('click', () => {
+    index = indexDot;
+    console.log(index)
+    prepareCurrentSlide()
+  })
+})
 
-// const prevSlide = () => {
-//   if(index == 0) {
-//     index = slides.length - 1;
-//     prepCurrentSlide(index);
-//   } else {
-//   index--;
-//     prepCurrentSlide(index);
-//   }
-// }
+// modal
 
-// dots.forEach((item, indexDot) => {
-//   item.addEventListener('click', () => {
-//     index = indexDot;
-//     prepCurrentSlide(index);
-//   })
-// })
-
-
-
-// // next.addEventListener('click', nextSlide);
-// // prev.addEventListener('click', prevSlide);
-
-// setInterval(function() {
-//   nextSlide()
-// }, 2000);

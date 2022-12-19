@@ -243,16 +243,11 @@ ul.user-navigation {
   border-radius: 50%;
 }
 
-.slider-controls button.current::after {
-  content: "";
-  position: absolute;
-  top: 13px;
-  left: 5px;
+.slider-controls button.current {
+  width: 18px;
+  height: 18px;
 
-  width: 4px;
-  height: 4px;
-
-  border: 2px solid #c1c1c1;
+  background-color: #a8a2a2;
   border-radius: 50%;
 }
 
