@@ -211,6 +211,8 @@ ul.user-navigation {
 
 .slider-description h2 {
   margin: 0;
+  width: 538px;
+  
   padding-top: 77px;
   padding-right: 60px;
   padding-bottom: 12px;
@@ -250,6 +252,25 @@ ul.user-navigation {
   background-color: #a8a2a2;
   border-radius: 50%;
 }
+
+/* .fade-in {
+  animation: fade 3s ease-in;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 0;
+  }
+  20% {
+      opacity: 0.5;
+  }
+  80% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 1;
+  }
+} */
 
 /* services */
 

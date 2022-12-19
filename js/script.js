@@ -24,6 +24,16 @@ const prepareCurrentSlide = ind => {
   activeDot(index);
 }
 
+const nextSlide = () => {
+  if(index == slides.length - 1) {
+    index = 0;
+    prepareCurrentSlide(index);
+  } else {
+  index++;
+    prepareCurrentSlide(index);
+  }
+}
+
 dots.forEach((item, indexDot) =>{
   item.addEventListener('click', () => {
     index = indexDot;
@@ -31,6 +41,10 @@ dots.forEach((item, indexDot) =>{
     prepareCurrentSlide()
   })
 })
+
+setInterval(function() {
+  nextSlide()
+}, 5000);
 
 // modal
 
