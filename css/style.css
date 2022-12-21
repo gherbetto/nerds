@@ -64,6 +64,10 @@ a {
           box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
 }
 
+.is-blurred {
+  filter: blur(2px);
+}
+
 /* header */
 
 .main-header {
@@ -838,4 +842,29 @@ ul.user-navigation {
   100% {
     transform: translateY(0);
   }
+}
+
+/* store page */
+
+.page-title {
+  background-color: #eeeeee;
+}
+
+.page-title h1 {
+  margin: 0;
+  padding-top: 78px;
+  padding-bottom: 109px;
+
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  text-align: center;
+  color: #000000;
+}
+
+main.inner-page {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 54px;
+  padding-bottom: 72px;
 }
